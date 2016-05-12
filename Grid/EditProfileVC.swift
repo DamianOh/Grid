@@ -11,9 +11,12 @@ import UIKit
 class EditProfileVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
 
     @IBOutlet weak var tableView: UITableView!
+    @IBOutlet weak var ProfilePicture: UIImageView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        ProfilePicture.layer.cornerRadius = 25
+        ProfilePicture.clipsToBounds = true
         
         // Do any additional setup after loading the view.
     }
@@ -43,7 +46,4 @@ class EditProfileVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 3
     }
-    
-    
-
 }

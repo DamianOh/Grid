@@ -38,8 +38,8 @@ class GridCVC: UICollectionViewController {
     }
     
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        //let kWhateverHeightYouWant = 150
-        return CGSizeMake(((collectionView.bounds.size.width)/3 - 1), ((collectionView.bounds.size.width)/3 - 1))
+        let kWhateverHeightYouWant = (collectionView.bounds.size.width)/3 - 1
+        return CGSizeMake(kWhateverHeightYouWant, kWhateverHeightYouWant)
     }
     
     override func collectionView(collectionView: UICollectionView, didSelectItemAtIndexPath indexPath: NSIndexPath) {

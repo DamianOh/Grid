@@ -534,6 +534,7 @@
 				50CFEF551CBC807D003A4A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50CFEF561CBC807D003A4A61 /* Build configuration list for PBXNativeTarget "GridTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +543,7 @@
 				50CFEF581CBC807D003A4A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		50CFEF591CBC807D003A4A61 /* Build configuration list for PBXNativeTarget "GridUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +552,7 @@
 				50CFEF5B1CBC807D003A4A61 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
