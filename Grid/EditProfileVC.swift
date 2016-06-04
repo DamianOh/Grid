@@ -15,8 +15,8 @@ class EditProfileVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        ProfilePicture.layer.cornerRadius = 25
-        ProfilePicture.clipsToBounds = true
+        ProfilePicture?.layer.cornerRadius = 25
+        ProfilePicture?.clipsToBounds = true
         
         // Do any additional setup after loading the view.
     }

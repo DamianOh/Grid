@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G7a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="UvQ-O4-8bB">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="vlV-k3-Vuz">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="UvQ-O4-8bB" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" badgeValue="1" selectedImage="2" systemItem="mostViewed" id="HCo-eb-u3D"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Mcp-Hk-Zle">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="IB5-h3-PqA" kind="relationship" relationship="rootViewController" id="NNK-MC-KXQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EzE-P1-fMg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1997" y="477"/>
+        </scene>
+        <!--UICollectionViewController-Buw-ma-0WE-->
+        <scene sceneID="06d-PP-pAV">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="UICollectionViewController-Buw-ma-0WE" id="IB5-h3-PqA" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lXY-Jf-civ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2809" y="477"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2" width="536" height="353"/>
+    </resources>
+</document>

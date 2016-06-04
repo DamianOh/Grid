@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		50472B881CFEA3A700A0BA75 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 50472B871CFEA3A700A0BA75 /* View.xib */; };
+		50472B8D1CFEA44600A0BA75 /* Grid.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50472B8C1CFEA44600A0BA75 /* Grid.storyboard */; };
+		50472B901CFEA96600A0BA75 /* Messages.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50472B8E1CFEA96600A0BA75 /* Messages.storyboard */; };
+		50472B921CFEA98600A0BA75 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50472B911CFEA98600A0BA75 /* Profile.storyboard */; };
 		50CFEF2F1CBC807D003A4A61 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50CFEF2E1CBC807D003A4A61 /* AppDelegate.swift */; };
 		50CFEF341CBC807D003A4A61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 50CFEF321CBC807D003A4A61 /* Main.storyboard */; };
 		50CFEF361CBC807D003A4A61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 50CFEF351CBC807D003A4A61 /* Assets.xcassets */; };
@@ -38,6 +42,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50472B871CFEA3A700A0BA75 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		50472B8C1CFEA44600A0BA75 /* Grid.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Grid.storyboard; sourceTree = "<group>"; };
+		50472B8F1CFEA96600A0BA75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Messages.storyboard; sourceTree = "<group>"; };
+		50472B911CFEA98600A0BA75 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
 		50CFEF2B1CBC807D003A4A61 /* Grid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grid.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		50CFEF2E1CBC807D003A4A61 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		50CFEF331CBC807D003A4A61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -136,6 +144,7 @@
 			children = (
 				50CFEF661CBC9E56003A4A61 /* DetailViewController.swift */,
 				50CFEF5E1CBC82FB003A4A61 /* GridCVC.swift */,
+				50472B871CFEA3A700A0BA75 /* View.xib */,
 				50CFEF6C1CBDC796003A4A61 /* EditProfileVC.swift */,
 			);
 			name = Controller;
@@ -146,6 +155,9 @@
 			children = (
 				50CFEF371CBC807D003A4A61 /* LaunchScreen.storyboard */,
 				50CFEF321CBC807D003A4A61 /* Main.storyboard */,
+				50472B911CFEA98600A0BA75 /* Profile.storyboard */,
+				50472B8E1CFEA96600A0BA75 /* Messages.storyboard */,
+				50472B8C1CFEA44600A0BA75 /* Grid.storyboard */,
 				50CFEF601CBC8605003A4A61 /* GridCell.swift */,
 			);
 			name = View;
@@ -273,8 +285,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50472B901CFEA96600A0BA75 /* Messages.storyboard in Resources */,
+				50472B8D1CFEA44600A0BA75 /* Grid.storyboard in Resources */,
+				50472B881CFEA3A700A0BA75 /* View.xib in Resources */,
 				50CFEF391CBC807D003A4A61 /* LaunchScreen.storyboard in Resources */,
 				50CFEF361CBC807D003A4A61 /* Assets.xcassets in Resources */,
+				50472B921CFEA98600A0BA75 /* Profile.storyboard in Resources */,
 				50CFEF341CBC807D003A4A61 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -341,6 +357,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		50472B8E1CFEA96600A0BA75 /* Messages.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				50472B8F1CFEA96600A0BA75 /* Base */,
+			);
+			name = Messages.storyboard;
+			sourceTree = "<group>";
+		};
 		50CFEF321CBC807D003A4A61 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
